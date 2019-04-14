@@ -22,5 +22,8 @@
     <string name="tab_search">Buscar</string>
     <string name="tab_home">Home</string>
     <string name="tab_profile">Yo</string>
+    <string name="secondword_detail">Me Gusta</string>
+    <string name="titleimagedetail">\"Todo copas en la playa\"</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed bibendum turpis. Suspendisse eu malesuada odio. Nullam ac dignissim nisi, vehicula semper sapien. Donec ac est vel nunc dignissim laoreet ac nec erat. Etiam cursus accumsan vehicula. Proin sed massa erat. Aliquam facilisis sem et turpis volutpat, in aliquet nibh cursus. Pellentesque ut aliquet lacus.  Aliquam erat volutpat. Curabitur eu magna posuere, venenatis nisi vitae, ultrices ipsum. Phasellus at ligula eget dui faucibus scelerisque. Cras gravida sem eu lectus pretium elementum. Sed sem eros, euismod a accumsan ac, sollicitudin quis turpis. Vivamus a arcu vitae quam suscipit mattis a non urna. Mauris et dapibus diam, a fermentum ante.</string>
 
 </resources>

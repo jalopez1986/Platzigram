@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jlopez.platzigram">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -29,7 +29,14 @@
             android:name=".ReferenceActivity"
             android:label="@string/title_activity_reference"
             android:theme="@style/AppTheme" />
-        <activity android:name=".view.ContainerActivity"></activity>
+        <activity android:name=".view.ContainerActivity" />
+        <activity android:name=".view.PictureDetailActivity"
+            android:parentActivityName=".view.ContainerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ContainerActivity" />
+
+        </activity>
     </application>
 
 </manifest>
