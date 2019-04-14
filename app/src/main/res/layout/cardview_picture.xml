@@ -17,7 +17,7 @@
             android:id="@+id/imagePictureCard"
             android:layout_width="match_parent"
             android:layout_height="@dimen/height_cardview"
-            android:background="@drawable/image"
+
             android:scaleType="centerCrop"/>
 
         <LinearLayout

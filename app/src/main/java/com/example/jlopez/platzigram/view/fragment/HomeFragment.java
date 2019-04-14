@@ -52,12 +52,12 @@ public class HomeFragment extends Fragment {
 
     public ArrayList<Picture> buildPictures(){
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Nicoll Sarai", "2 horas", "48"));
-        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Carlos Fernández", "1 día", "4"));
-        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Nicoll Sarai", "2 semanas", "8"));
-        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Fraini Salazar", "20 horas", "21"));
-        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Erick Rengel", "1 día", "12"));
-        pictures.add(new Picture("https://images.pexels com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Nicoll Sarai", "10 minutos", "123"));
+        pictures.add(new Picture("https://images.pexels.com/photos/466686/pexels-photo-466686.jpeg?auto=compress&cs=tinysrgb&h=350", "Nicoll Sarai", "2 horas", "48 Me gusta"));
+        pictures.add(new Picture("https://images.pexels.com/photos/466684/pexels-photo-466684.jpeg?auto=compress&cs=tinysrgb&h=350", "Carlos Fernández", "1 día", "4 Me gusta"));
+        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Nicoll Sarai", "2 semanas", "8 Me gusta"));
+        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Fraini Salazar", "20 horas", "21 Me gusta"));
+        pictures.add(new Picture("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&h=350", "Erick Rengel", "1 día", "12 Me gusta"));
+        pictures.add(new Picture("https://images.pexels.com/photos/466686/pexels-photo-466686.jpeg?auto=compress&cs=tinysrgb&h=350", "Nicoll Sarai", "2 horas", "48 Me gusta"));
 
         return pictures;
     }
