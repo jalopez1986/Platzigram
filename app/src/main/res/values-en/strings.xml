@@ -19,4 +19,5 @@
     <string name="tab_profile">Me</string>
     <string name="secondword_detail">Me Gusta</string>
     <string name="titleimagedetail">\"Todo copas en la playa\"</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
 </resources>
