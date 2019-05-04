@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
             @Override
             public void onClick(View v) {
                 if (username.getText().toString().isEmpty() && password.getText().toString().isEmpty()) {
-                    loginError("Ingresa tus datos");
+                    loginError("Ingrese sus datos");
                 }
                 else if (username.getText().toString().isEmpty()) {
                     loginError("Ingrese el usuario");
