@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.jlopez.platzigram.Login.presenter.LoginPresenter;
@@ -21,6 +22,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     private TextInputEditText username;
     private TextInputEditText password;
     private Button login;
+    private TextView createHere;
     private ProgressBar progressBarLogin;
 
     private LoginPresenter loginPresenter;
@@ -33,6 +35,8 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         login = findViewById(R.id.login);
+        createHere = findViewById(R.id.createHere);
+
         progressBarLogin = findViewById(R.id.progressbarLogin);
         hideProgressBar();
 
@@ -55,6 +59,16 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
                 }
             }
         });
+
+        createHere.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goCreateAccount();
+            }
+        });
+
+
+
 
 
     }
